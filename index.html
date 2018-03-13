@@ -7,15 +7,15 @@
 </head>
 
 <body>
-  <header class="c-page-header">
-    <a class="c-page-header__logo" href="#">
-    <img class="c-page-header__image" src="#" alt="" />
+  <header class="page-header">
+    <a class="page-header__logo" href="#">
+    <img class="page-header__image" src="http://wowdot.com" alt="" />
   </a>
 
     <button class="menu-togler menu-togler--close"></button>
-    <nav class="l-main-nav">
-      <div class="l-main-nav__wrapper">
-        <ul class="l-main-nav__list site-list">
+    <nav class="main-nav">
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
           <li class="site-list__item">
             <a class="" href="#"></a>
           </li>
@@ -37,9 +37,9 @@
     <section class="download-all">
       <a class="download-all__button" href="#"></a>
       <div class="download-all__img-wrapper">
-        <img class="download-all__apple" src="#" alt="" />
-        <img class="download-all__android" src="#" alt="" />
-        <img class="download-all__windows" src="#" alt="" />
+        <img class="download-all__apple" src="http://wowdot.com" alt="" />
+        <img class="download-all__android" src="http://wowdot.com" alt="" />
+        <img class="download-all__windows" src="http://wowdot.com" alt="" />
         <p class="download-all__allow-for">Доступно для IPhone, Ipad</p>
       </div>
     </section>
@@ -50,24 +50,24 @@
       </div>
       <div class="advancement__advanteges">
         <ul class="advancement__list">
-          <li class="advancement__item">
-            <img class="advancement-logo" src="" alt="">
+          <li class="advancement__item advancement__item--mood">
+            <img class="advancement-logo" src="http://wowdot.com" alt="">
             <h3 class="advancement__title"></h3>
             <p class="advancement__text"></p>
           </li>
-          <li class="advancement__item">
-            <img class="advancement-logo" src="" alt="">
+          <li class="advancement__item advancement__item--world">
+            <img class="advancement-logo" src="http://wowdot.com" alt="">
             <h3 class="advancement__title"></h3>
             <p class="advancement__text"></p>
           </li>
-          <li class="advancement__item">
-            <img class="advancement-logo" src="" alt="">
+          <li class="advancement__itemadvancement__item--friends">
+            <img class="advancement-logo" src="http://wowdot.com" alt="">
             <h3 class="advancement__title"></h3>
             <p class="advancement__text"></p>
           </li>
         </ul>
         <div class="research-adv">
-          <img class="research-adv__logo" src="#" alt="" />
+          <img class="research-adv__logo" src="http://wowdot.com" alt="" />
           <div class="research-adv__discription">
             <h3 class="research-adv__title"></h3>
             <p class="research-adv__text"></p>
@@ -79,20 +79,22 @@
     </section>
     <section class="reviews">
       <div class="reviews__wrapper slider">
-        <ul class="reviews__list slider__list">
-          <li class="reviews__item slider__item">
-            <h3 class="reviews__title"></h3>
+        <div class="reviews__list slider__list">
+          <blockquote class="reviews__quote  slider__item">
             <p class="reviews__text"></p>
-          </li>
-          <li class="reviews__item slider__item">
-            <h3 class="reviews__title"></h3>
+            <cite class="autor-name"></cite>
+          </blockquote>
+          <blockquote class="reviews__quote  slider__item">
             <p class="reviews__text"></p>
-          </li>
-          <li class="reviews__item slider__item">
-            <h3 class="reviews__title"></h3>
+            <cite class="autor-name"></cite>
+          </blockquote>
+          <blockquote class="reviews__quote  slider__item">
             <p class="reviews__text"></p>
-          </li>
-        </ul>
+            <cite class="autor-name"></cite>
+          </blockquote>
+          <button class="reviews__prev" type="button"></button>
+          <button class="reviews__next" type="button"></button>
+        </div>
         <p class="reviews__toggle slider__toggles">
           <button class="slider__toggle">1</button>
           <button class="slider__toggle">2</button>
@@ -100,15 +102,17 @@
         </p>
       </div>
     </section>
+
     <section class="offers">
       <div class="offers__wrapper">
         <table class="offers__list">
           <thead class="offers__top">
-            <tr class="offers__row"></tr>
-            <th class="offers__header"></th>
-            <th class="offers__header"></th>
-            <th class="offers__header"></th>
-            <th class="offers__header"></th>
+            <tr class="offers__row">
+              <th class="offers__header"></th>
+              <th class="offers__header"></th>
+              <th class="offers__header"></th>
+              <th class="offers__header"></th>
+            </tr>
           </thead>
           <tbody class="offers__bottom">
             <tr class="offers__row">
@@ -142,17 +146,17 @@
       <div class="contact-us__wrapper">
         <h2 class="contact-us__allegation"></h2>
         <ul class="contact-us__list">
-          <li class="contact-us__item">
-            <h3 class="contact-us__title"></h3>
-            <p class="contact-us__text"></p>
+          <li class="contact-us__item call">
+            <h3 class="call__title"></h3>
+            <p class="call__text"></p>
           </li>
-          <li class="contact-us__item">
-            <h3 class="contact-us__title"></h3>
-            <p class="contact-us__text"></p>
+          <li class="contact-us__item write">
+            <h3 class="write__title"></h3>
+            <p class="write__text"></p>
           </li>
-          <li class="contact-us__item">
-            <h3 class="contact-us__title"></h3>
-            <p class="contact-us__text"></p>
+          <li class="contact-us__item visit">
+            <h3 class="visit__title"></h3>
+            <p class="visit__text"></p>
           </li>
         </ul>
         <div class="contact-us__map"></div>
@@ -161,18 +165,28 @@
 
   </main>
   <footer class="page-footer">
-    <a class="page-footer__logo" href="#">
-    <img class="page-footer__pink" src="#" alt="" />
-  </a>
-    <div class="page-footer__media">
-      <a class="page-footer__twitter" href="#"></a>
-      <a class="page-footer__facebook" href="#"></a>
-      <a class="page-footer__youtube" href="#"></a>
+    <div class="page-footer_logo logo">
+      <a class="logo__link" href="#">
+      <img class="logo__img" src="http://wowdot.com" alt="" /></a>
     </div>
-    <div class="page-footer__develop">
-      <p class="page-footer__text"></p>
-      <a class="page-footer__link" href="#"></a>
-    </div>
+      <div class="page-footer__media social">
+        <ul class="social__list">
+          <li class="social_item">
+            <a class="social__link social__link--vkontakte" href="#"></a>
+          </li>
+          <li class="social_item">
+            <a class="social__link social__link--facebook" href="#"></a>
+          </li>
+          <li class="social_item">
+            <a class="social__link social__link--youtube" href="#"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-footer__develop develop">
+        <p class="develop__text"></p>
+        <a class="develop__link" href="#"></a>
+      </div>
   </footer>
 </body>
 
